@@ -1,0 +1,88 @@
+body {
+    
+}
+
+#dice_container{
+    
+    width:10em;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+.dice{
+    
+    width:10em;
+    height:10em;
+    
+    margin:1em;
+
+    background-color:white;
+    border:.1em solid black;
+}
+
+
+.dot{
+    
+    display:block;
+    
+    width:20%;
+    height:20%;
+    
+    margin:1em;
+        
+    background-color:black;
+    border-radius:50%;
+}
+
+.empty{
+    position:relative;
+    left:30%;
+    top:30%;
+    opacity:0;
+    
+}
+
+
+.center{
+    position:relative;
+    left:30%;
+    top:30%;
+    
+}
+
+.top_left{
+    float:left;
+}
+
+
+.top_right{
+    float:right;
+}
+
+
+.bottom_left{
+    position:relative;
+    float:left;
+    top:20%;
+}
+
+
+.bottom_right{
+    position:relative;
+    float:right;
+    top:20%;
+}
+
+
+
+.left{
+    
+}
+
+.right{
+    position:relative;
+    left:60%;
+    bottom:90%;
+    
+}
